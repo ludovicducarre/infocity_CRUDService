@@ -2,21 +2,22 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="jpa" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class>fr.univtln.lducarre365.infoCity.business.Town</class>
-        <class>fr.univtln.lducarre365.infoCity.business.Advert</class>
+        <class>business.User</class>
+        <class>business.Advert</class>
+        <class>business.Town</class>
 
         <properties>
             <!-- Les paramètres de connexions -->
             <!--<property name="javax.persistence.target-database" value="H2"/> -->
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://172.17.0.1:5433/infoCity_api"/>
-            <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="root"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://127.0.0.1:5432/infocity"/>
+            <property name="javax.persistence.jdbc.user" value="ludovic"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
 
             <!-- Les options de générations des tables -->
-            <property name="eclipselink.ddl-generation.output-mode" value="both"/>
+            <!--<property name="eclipselink.ddl-generation.output-mode" value="both"/> -->
             <!--property name="eclipselink.ddl-generation" value="create-tables"/-->
-            <!--property name="eclipselink.ddl-generation" value="drop-and-create-tables"/-->
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
             <!-- et des scripts SQL -->
             <property name="eclipselink.create-ddl-jdbc-file-name" value="createDDL_ddlGeneration.sql"/>
             <property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.sql"/>
