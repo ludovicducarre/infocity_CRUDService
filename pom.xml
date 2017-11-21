@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <!-- ADAPTER LES PROPRIETES SUIVANTES -->
@@ -44,13 +43,13 @@
     <!-- ADAPTER les coordonnées -->
     <groupId>fr.univtln.lducarre365.infoCity</groupId>
     <artifactId>infoCity_crud_service</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-adapt_db_docker-SNAPSHOT</version>
     <packaging>jar</packaging>
     <!-- ADAPTER les coordonnées -->
 
     <!-- ADAPTER les métadonnées -->
     <name>infoCity_crud</name>
-    <description></description>
+    <description />
     <url>https://${github.account}.github.io/infoCity_crud/</url>
     <inceptionYear>2017</inceptionYear>
 
@@ -147,11 +146,11 @@
             <artifactId>javax.json</artifactId>
             <version>1.0.4</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>fr.univtln.lducarre365.infoCity</groupId>
             <artifactId>infoCity_model</artifactId>
             <version>1.0-jpa__model-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.hibernate</groupId>
