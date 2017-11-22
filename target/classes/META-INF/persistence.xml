@@ -2,9 +2,9 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="jpa" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class>business.User</class>
-        <class>business.Advert</class>
-        <class>business.Town</class>
+        <class>fr.univtln.lducarre365.infoCity.business.User</class>
+        <class>fr.univtln.lducarre365.infoCity.business.Advert</class>
+        <class>fr.univtln.lducarre365.infoCity.business.Town</class>
 
         <properties>
             <!-- Les paramètres de connexions -->

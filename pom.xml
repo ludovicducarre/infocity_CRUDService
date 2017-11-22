@@ -150,7 +150,7 @@
         <dependency>
             <groupId>fr.univtln.lducarre365.infoCity</groupId>
             <artifactId>infoCity_model</artifactId>
-            <version>1.0-jpa__model-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
