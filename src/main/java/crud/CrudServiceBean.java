@@ -11,6 +11,7 @@ import java.util.Set;
 public class CrudServiceBean {
 
     /**
+     * @author ludovic
      * Created by ludovic on 11/05/17.
      * Classe qui  sert à rendre toute classe persistente
      *

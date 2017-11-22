@@ -4,6 +4,12 @@ import fr.univtln.lducarre365.infoCity.business.Advert;
 import fr.univtln.lducarre365.infoCity.business.Town;
 import fr.univtln.lducarre365.infoCity.business.User;
 
+/**
+ * @author ludovic
+ * Cette classe sert au developpeur à tester la persistence
+ * et à verifier la bonne construction des classes métiers
+ */
+
 public class App {
 
 
